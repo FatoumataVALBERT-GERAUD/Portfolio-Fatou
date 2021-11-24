@@ -253,6 +253,10 @@ article {
   align-items: center;
 }
 
+#Contact h2 {
+  padding-top: 7vh;
+}
+
 #Contact a {
   font-size: clamp(2em, 4vw, 3em);
   color: var(--gris-clair);

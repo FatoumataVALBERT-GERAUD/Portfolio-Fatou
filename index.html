@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <title>Portfolio FVG</title>
+  </head>
+  <body>
+    <header>
+      <div id="brand"><a href="/">FVG</a></div>
+      <nav>
+        <ul>
+          <li><a href="#brand">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Projets">Projets</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Projets">Projets</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <section id="Présentation">
+      <h1>Welcome<br/>to my<br/>portfolio<lottie-player src=https://assets5.lottiefiles.com/packages/lf20_a56yld9v.json background="transparent"  speed="0.5" loop autoplay></lottie-player></h1>
+      <div class="my-name-is">
+          <p class="hi">Hi, my name is</p>
+          <p class=big-name >Fatoumata<br/>VALBERT&#8209;GERAUD</p>
+          <p class="web-dev">and I’m a<br/>web developper.</p>
+      </div>
+  </section>
+
+  <main>
+        
+    <section id="About">
+        <h2>About me</h2>
+        <div class="about_me">
+        <p>Welcome to my portfolio where I share my differents project as a web developper.</p>
+            <div class="my-little-avatar">
+                <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_fhceknjz.json" background="transparent"  speed="0.6" loop autoplay></lottie-player>
+            </div>
+        </div>
+    </section>
+
+    <section id="Projets">
+        <h2>Projets</h2>
+        <div class="articles">
+            
+            <article>
+                <img src="./assets/catsintoulouseLandingPage.jpg" alt="">
+                <p>Catsintoulouse</p>
+                <a href="">Go see</a>
+            </article>
+
+            <article>
+                <img src="./assets/carte_de_visite.jpg" alt="">
+                <p>Carte de visite</p>
+                <a href="">Go see</a>
+            </article>
+
+            <article>
+                <img src="./assets/eatla.jpg" alt="">
+                <p>Eatlà</p>
+                <a href="">Go see</a>
+            </article>
+
+            <article>
+                <img src="./assets/catsintoulouseV1.jpg" alt="">
+                <p>Catsintoulouse V1</p>
+                <a href="">Go see</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <h2>Contact</h2>
+        <div class="contacts">
+            <div class="adresse">
+                <a href="https://www.google.com/maps/place/St+-+Cyprien,+Toulouse/@43.5976757,1.4259451,15z/data=!3m1!4b1!4m5!3m4!1s0x12aebb7a9123c86d:0xe48e1097a0202044!8m2!3d43.5985558!4d1.4350126" target="_blank"><i class="fas fa-home"></i></a>
+                <p>Toulouse, France.</p>
+            </div>
+            
+            <div class="mail">
+                <a href="mailto:fatoumata.valbert@laposte.net"><i class="fas fa-envelope-square"></i></a>
+                <p>E-mail me</p>
+            </div>
+            <div class="mail">
+                <a class="btn" href="./assets/CV_Fatoumata_VALBERT_GERAUD_2021.pdf"
+                download="CV Fatoumata VALBERT-GERAUD" target="_blank"><i class="fas fa-download"></i></a>
+                <p>Download my CV</p>
+            </div>
+        </div>
+    </section>
+    <a class="top-scroll" href=""><i class="fas fa-chevron-circle-up"></i></a>
+</main>
+
+<footer>
+    <div class="footer-links">
+        <a href="https://fr.linkedin.com/in/fatoumata-valbert-geraud-027522217" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://gitlab.com/FatoumataVG" target="_blank"><i class="fab fa-gitlab"></i></a>
+        <a href="https://www.figma.com/files/drafts?fuid=992792503263544672" target="_blank"><i class="fab fa-figma"></i></a>
+        <a href="https://twitter.com/GeraudValbert" target="_blank"><i class="fab fa-twitter-square"></i></a>
+    </div>
+    <p>©2021.</p>
+</footer>
+    
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="./aos.js"></script>
+  </body>
+</html>

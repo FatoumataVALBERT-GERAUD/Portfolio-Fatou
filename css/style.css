@@ -23,8 +23,8 @@ body {
   font-family: var(--texte-courant);
   scroll-behavior: smooth;
 }
-
- #Présentation, #About, #Projets, #Contact {
+/*à rajouter aprés reconstruction : , #About, #Projets, #Contact*/
+ #Présentation {
   height: 100vh;
   margin: 2vh 0 0 2vh;
 }
@@ -172,6 +172,11 @@ lottie-player {
 
 .hi, .web-dev {
   font-weight: bold;
+}
+
+.reconstruction {
+  font-weight: bold;
+  color: red;
 }
 
 .big-name {

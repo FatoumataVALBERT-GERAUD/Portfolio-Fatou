@@ -19,9 +19,18 @@ body {
 
 .Introduction { grid-area: Introduction; 
   display: flex;
+  align-items: center;
 }
 
-.Contacts { grid-area: Contacts; }
+.Contacts { grid-area: Contacts; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+svg {
+  width: 3rem;
+}
 
 svg path{
   fill: #004B66;

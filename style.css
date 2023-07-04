@@ -1,0 +1,23 @@
+
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Name Name Name"
+    "Introduction Introduction Contacts"
+    "Project-1 Project-2 Project-3";
+}
+
+.Name { grid-area: Name; }
+
+.Introduction { grid-area: Introduction; }
+
+.Contacts { grid-area: Contacts; }
+
+.Project-1 { grid-area: Project-1; }
+
+.Project-2 { grid-area: Project-2; }
+
+.Project-3 { grid-area: Project-3; }

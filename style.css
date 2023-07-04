@@ -1,4 +1,8 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #004B66;
 
+}
 .container {  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -8,13 +12,20 @@
     "Name Name Name"
     "Introduction Introduction Contacts"
     "Project-1 Project-2 Project-3";
+  height: 100vh;
 }
 
 .Name { grid-area: Name; }
 
-.Introduction { grid-area: Introduction; }
+.Introduction { grid-area: Introduction; 
+  display: flex;
+}
 
 .Contacts { grid-area: Contacts; }
+
+svg path{
+  fill: #004B66;
+}
 
 .Project-1 { grid-area: Project-1; }
 

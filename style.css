@@ -14,7 +14,7 @@ body {
     "Realisation Realisation Realisation"
     "Project-1 Project-2 Project-3";
   height: 100vh;
-  margin: 2rem 8rem 2rem 8%;
+  margin: 2rem 8rem 2rem 8rem;
 }
 
 .Name { grid-area: Name; }

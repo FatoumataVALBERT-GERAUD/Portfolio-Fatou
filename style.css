@@ -1,57 +1,14 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #004B66;
 
 }
-.container {  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 5px 5px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "Name Name Name"
-    "Introduction Introduction Contacts"
-    "Realisation Realisation Realisation"
-    "Project-1 Project-2 Project-3";
-  height: 100vh;
-  margin: 2rem 8rem 2rem 8rem;
-}
-
-.Name { grid-area: Name; }
-
-h2 {
-  color: red;
-}
-
-.Introduction { grid-area: Introduction; 
-  display: flex;
-  align-items: center;
-}
-
-.Contacts { grid-area: Contacts; 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 svg {
-  width: 3rem;
-  padding-right: 2rem;
+  width: 4.5rem;
+  padding-right: 1rem;
 }
 
 svg path{
   fill: #004B66;
 }
-
-.Realisation { grid-area: Realisation; 
-  display: flex; 
-}
-
-.Project-1 { grid-area: Project-1; }
-
-
-.Project-2 { grid-area: Project-2; }
-
-.Project-3 { grid-area: Project-3; }
-
-
